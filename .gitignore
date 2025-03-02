@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Compiled CSS and sourcemaps
+dist/
+*.css.map
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Sass cache (if applicable)
+.sass-cache/
+
+# Build tools (if using Webpack, Gulp, or Parcel)
+.cache/
+.vscode/
