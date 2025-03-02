@@ -1,6 +1,5 @@
 # Node.js dependencies
 node_modules/
-package-lock.json
 
 # Compiled CSS and sourcemaps
 dist/
@@ -10,10 +9,15 @@ dist/
 *.log
 .DS_Store
 Thumbs.db
+*~
 
-# Sass cache (if applicable)
+# Sass cache
 .sass-cache/
 
-# Build tools (if using Webpack, Gulp, or Parcel)
+# Build tools and IDE
 .cache/
 .vscode/
+
+# Environment files
+.env
+.env.*
